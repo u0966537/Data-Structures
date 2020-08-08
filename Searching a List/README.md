@@ -1,0 +1,3 @@
+# Common Questions
+## What is the differences between Java List and Java Array? Do you expect that using a Java List would be more or less efficient and why?
+The major difference between List and Array is the capacity. List has dynamic size, it will increase capacity when it's needed. However, Array has a fixed length, you will not be able to add element after it's full, unless create a new array. Array can be constructed to store primitive types. Primitive types are immediate data, it does not have NPE (NullPointerException). List only accepts Object types, it has NPE. Therefore, Array is more efficiency, but insufficient in development.
