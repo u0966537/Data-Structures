@@ -1,6 +1,3 @@
-package assignment04;
-
-
 import java.util.Random;
 import org.junit.Test;
 

@@ -1,5 +1,3 @@
-package assignment04;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -44,14 +42,13 @@ public class AnagramUtil {
 		insertionSort(letters,new charComparator());
 		
 		// putting each letters back to a word as String type.
-		String sortedWord = "";
+		StringBuilder sortedWord = new StringBuilder("");
 		for(Character chars: letters)
 		{
-			sortedWord += chars;
+			sortedWord.append(chars);
 		}
 
-		return sortedWord;
-		
+		return sortedWord.toString();
 	}
 	
 	
@@ -124,7 +121,7 @@ public class AnagramUtil {
 	 * Assume There will only ever be one largest group of anagrams 
 	 * in a list of words.
 	 * 
-	 * @param unsorted string array
+	 * @param array string array
 	 * @return a perfect size array with the anagram words
 	 */
 	public static String[] getLargestAnagramGroup(String[] array) {
