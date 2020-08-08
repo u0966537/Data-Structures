@@ -11,3 +11,7 @@ Implement a class that represents 2D mathematical matrices.
 Construct a program for libraries that allows books to be checked in and out electronically. A book is represented by an ISBN, an author, and a title, all of which cannot change once the book has been created. (Please note that ISBNs are unique.) A library book is a book together with a holder (representation of the person who has the book checked out) and a due date, both of which can change as needed. (Please note that for our purposes, all holders are unique.)
 ## Searching a List
 Construct a program that handles lists of strings, integers, library books, and anything else our client can think of. The client requires all of the usual operations for a list, such as the ability to add items, remove items, search for items, and get items (in sorted order). Because the client expects that searching for items will be the most common operation for these lists, we must make our search routine as efficient as possible. Further, we have been informed that the lists may not contain duplicates (ie. it is a set).
+## Anagrams
+Gain knowledge of sorting, testing and algorithm analysis.
+## Quicksort and Mergesort
+Implement mergesort and quicksort, and perform experiements to see which of these two sorting algorithms has the fastest running times for Java ArrayList.
