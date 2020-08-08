@@ -32,7 +32,7 @@ public class PhoneNumber {
 		} else {
 			areaCode = "000";
 			trunk = "000";
-			rest = "000";
+			rest = "0000";
 			System.err.println("Phone number \"" + phoneNum + "\" is not formatted correctly, initializing as "
 					+ toString() + ".");
 		}
