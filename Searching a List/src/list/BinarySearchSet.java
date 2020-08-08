@@ -161,13 +161,11 @@ public class BinarySearchSet<E> implements SortedSet<E> {
 			 * If it is null, then it will throw null pointer exception when comparing 
 			 * to other element.
 			 */
-			if(array[index] != null &&array[index].equals(element) ) {
+			if(array[index] != null && array[index].equals(element) ) {
 				return true;
 			}
 		}
-			
 		return false;
-	
 	}
 	/**
 	 * @param c
@@ -181,8 +179,7 @@ public class BinarySearchSet<E> implements SortedSet<E> {
 				return false;
 			}
 		}
-		return true; 
-				
+		return true; 		
 		}
 
 	/**
@@ -218,7 +215,6 @@ public class BinarySearchSet<E> implements SortedSet<E> {
 					array[i] = array[i+1];
 				}
 				
-	
 				size--;
 				return true;
 		}
@@ -240,7 +236,6 @@ public class BinarySearchSet<E> implements SortedSet<E> {
 			check = remove(element);
 		}
 		return check;
-	
 	}
 
 	/**
