@@ -1,5 +1,3 @@
-package assignment02;
-
 import java.util.GregorianCalendar;
 
 

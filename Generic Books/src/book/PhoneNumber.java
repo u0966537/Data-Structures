@@ -1,5 +1,3 @@
-package assignment02;
-
 /**
  * Class representation of a phone number.
  * 

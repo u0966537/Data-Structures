@@ -1,5 +1,3 @@
-package assignment02;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.text.ParseException;

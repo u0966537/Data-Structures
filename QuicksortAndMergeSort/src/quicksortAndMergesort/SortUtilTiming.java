@@ -1,5 +1,3 @@
-package assignment05;
-
 import java.util.ArrayList;
 import java.util.Comparator;
 

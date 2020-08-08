@@ -1,9 +1,3 @@
-/*
- * Here is a starting point for your Matrix tester. You will have to fill in the rest of "main" with
- * more code to sufficiently test your Matrix class. We will be using our own MatrixTester for grading. 
- */
-package assignment01;
-
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

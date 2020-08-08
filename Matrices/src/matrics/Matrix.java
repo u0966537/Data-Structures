@@ -1,5 +1,3 @@
-package assignment01;
-
 /**
  * Implementation of a 2D Mathematical Matrix
  * 	- includes functionality for multiplying and adding matrices

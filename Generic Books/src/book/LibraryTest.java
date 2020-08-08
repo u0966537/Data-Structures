@@ -1,5 +1,3 @@
-package assignment02;
-
 import java.util.ArrayList;
 
 import org.junit.Assert;

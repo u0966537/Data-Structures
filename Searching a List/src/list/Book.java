@@ -1,6 +1,3 @@
-package assignment03;
-
-
 /**
  * Class representation of a book. The ISBN, author, and title can never change
  * once the book is created.
