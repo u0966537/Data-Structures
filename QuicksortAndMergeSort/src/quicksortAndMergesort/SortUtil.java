@@ -185,7 +185,7 @@ public class SortUtil {
 	 * @param comparator
 	 */
 	private static <T> void quicksort(ArrayList<T> list, int start, int end, Comparator<? super T> comparator) {
-		if (start<end-1) {
+		if (start < end-1) {
 			int mid = partition(list, start, end, comparator);
 			quicksort(list, start, mid, comparator);
 			quicksort(list, mid+1, end, comparator);
@@ -203,7 +203,7 @@ public class SortUtil {
 	 */
 	private static <T> int partition(ArrayList<T> list, int start, int end, Comparator<? super T> comparator) {
 		
-		int pivot=0;
+		int pivot= 0;
 		int low = start;
 		int high = end-1;
 		
