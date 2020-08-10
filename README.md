@@ -21,3 +21,5 @@ Create a generic stack class so that it may be used to solve other problems. The
 Implement a BST of generically-typed items. The implementation should include a class to represent a binary tree node and a class to represent a BST (a collection of binary tree nodes). 
 ## PacMan!
 Represent the maze as a graph and perform a breadth-first search from Pacman's starting point. 
+## Hash Tables
+The way in which we resolve collisions in a hash table is critical to attaining a running time of O(c) in the average case. Such collisions are unavoidable because we have many more possible items than positions in the table. However, the number of collisions strongly depends on the effectiveness of the hash function at distributing items evenly throughout the table. Thus, we are interested in evaluating the performance of two strategies for resolving collisions (quadratic probing and separate chaining), as well as the performance of several hashing functions to determine which strategy best guarantees the O(c) average-case running time. (Recall that a good hash function not only attempts even distribution, but is also very simple and fast, as it must be invoked many times.)
