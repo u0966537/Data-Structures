@@ -17,3 +17,7 @@ Gain knowledge of sorting, testing and algorithm analysis.
 Implement mergesort and quicksort, and perform experiements to see which of these two sorting algorithms has the fastest running times for Java ArrayList.
 ## Stacks
 Create a generic stack class so that it may be used to solve other problems. The stack class will need to be backed by a generic storage data structure, like an array or a linked list. How do we decide which to use? We'll implement a stack backed by a singly linked list and compare it to the stack backed by an array.
+## Binary Search Trees
+Implement a BST of generically-typed items. The implementation should include a class to represent a binary tree node and a class to represent a BST (a collection of binary tree nodes). 
+## PacMan!
+Represent the maze as a graph and perform a breadth-first search from Pacman's starting point. 
